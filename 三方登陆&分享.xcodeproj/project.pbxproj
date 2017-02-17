@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3BF557B1E543A59008F7999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF557A1E543A59008F7999 /* main.m */; };
+		A3BF557E1E543A59008F7999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF557D1E543A59008F7999 /* AppDelegate.m */; };
+		A3BF55811E543A59008F7999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF55801E543A59008F7999 /* ViewController.m */; };
+		A3BF55841E543A59008F7999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BF55821E543A59008F7999 /* Main.storyboard */; };
+		A3BF55861E543A59008F7999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BF55851E543A59008F7999 /* Assets.xcassets */; };
+		A3BF55891E543A59008F7999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BF55871E543A59008F7999 /* LaunchScreen.storyboard */; };
+		A3BF55941E543A59008F7999 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF55931E543A59008F7999 /* _______Tests.m */; };
+		A3BF559F1E543A59008F7999 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF559E1E543A59008F7999 /* _______UITests.m */; };
+		A3BF55B01E543F0F008F7999 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3BF55AE1E543F0F008F7999 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		A3BF55B11E543F0F008F7999 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55AF1E543F0F008F7999 /* TencentOpenAPI.framework */; };
+		A3BF55B31E543F42008F7999 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55B21E543F42008F7999 /* Security.framework */; };
+		A3BF55B51E543F4F008F7999 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55B41E543F4F008F7999 /* libiconv.tbd */; };
+		A3BF55B71E543F5D008F7999 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55B61E543F5D008F7999 /* SystemConfiguration.framework */; };
+		A3BF55B91E543F6C008F7999 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55B81E543F6C008F7999 /* CoreGraphics.framework */; };
+		A3BF55BB1E543F79008F7999 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55BA1E543F79008F7999 /* libsqlite3.tbd */; };
+		A3BF55BD1E543F83008F7999 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55BC1E543F83008F7999 /* CoreTelephony.framework */; };
+		A3BF55BF1E543F99008F7999 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55BE1E543F99008F7999 /* libstdc++.tbd */; };
+		A3BF55C11E543FA5008F7999 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55C01E543FA5008F7999 /* libz.tbd */; };
+		A3BF55C51E54409F008F7999 /* ThirdTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF55C41E54409F008F7999 /* ThirdTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3BF55901E543A59008F7999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BF556E1E543A59008F7999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BF55751E543A59008F7999;
+			remoteInfo = "三方登陆&分享";
+		};
+		A3BF559B1E543A59008F7999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BF556E1E543A59008F7999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BF55751E543A59008F7999;
+			remoteInfo = "三方登陆&分享";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3BF55761E543A59008F7999 /* 三方登陆&分享.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "三方登陆&分享.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BF557A1E543A59008F7999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3BF557C1E543A59008F7999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3BF557D1E543A59008F7999 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3BF557F1E543A59008F7999 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3BF55801E543A59008F7999 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3BF55831E543A59008F7999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3BF55851E543A59008F7999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3BF55881E543A59008F7999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3BF558A1E543A59008F7999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BF558F1E543A59008F7999 /* 三方登陆&分享Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "三方登陆&分享Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BF55931E543A59008F7999 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		A3BF55951E543A59008F7999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BF559A1E543A59008F7999 /* 三方登陆&分享UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "三方登陆&分享UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BF559E1E543A59008F7999 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		A3BF55A01E543A59008F7999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BF55AE1E543F0F008F7999 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		A3BF55AF1E543F0F008F7999 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		A3BF55B21E543F42008F7999 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A3BF55B41E543F4F008F7999 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		A3BF55B61E543F5D008F7999 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A3BF55B81E543F6C008F7999 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3BF55BA1E543F79008F7999 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A3BF55BC1E543F83008F7999 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A3BF55BE1E543F99008F7999 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		A3BF55C01E543FA5008F7999 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A3BF55C31E54409F008F7999 /* ThirdTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTool.h; sourceTree = "<group>"; };
+		A3BF55C41E54409F008F7999 /* ThirdTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BF55731E543A59008F7999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BF55C11E543FA5008F7999 /* libz.tbd in Frameworks */,
+				A3BF55BF1E543F99008F7999 /* libstdc++.tbd in Frameworks */,
+				A3BF55BD1E543F83008F7999 /* CoreTelephony.framework in Frameworks */,
+				A3BF55BB1E543F79008F7999 /* libsqlite3.tbd in Frameworks */,
+				A3BF55B91E543F6C008F7999 /* CoreGraphics.framework in Frameworks */,
+				A3BF55B71E543F5D008F7999 /* SystemConfiguration.framework in Frameworks */,
+				A3BF55B51E543F4F008F7999 /* libiconv.tbd in Frameworks */,
+				A3BF55B31E543F42008F7999 /* Security.framework in Frameworks */,
+				A3BF55B11E543F0F008F7999 /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF558C1E543A59008F7999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF55971E543A59008F7999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3BF556D1E543A59008F7999 = {
+			isa = PBXGroup;
+			children = (
+				A3BF55C21E543FF7008F7999 /* Frameworks */,
+				A3BF55781E543A59008F7999 /* 三方登陆&分享 */,
+				A3BF55921E543A59008F7999 /* 三方登陆&分享Tests */,
+				A3BF559D1E543A59008F7999 /* 三方登陆&分享UITests */,
+				A3BF55771E543A59008F7999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BF55771E543A59008F7999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF55761E543A59008F7999 /* 三方登陆&分享.app */,
+				A3BF558F1E543A59008F7999 /* 三方登陆&分享Tests.xctest */,
+				A3BF559A1E543A59008F7999 /* 三方登陆&分享UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3BF55781E543A59008F7999 /* 三方登陆&分享 */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF55AC1E543EFD008F7999 /* Lib */,
+				A3BF557C1E543A59008F7999 /* AppDelegate.h */,
+				A3BF557D1E543A59008F7999 /* AppDelegate.m */,
+				A3BF55C31E54409F008F7999 /* ThirdTool.h */,
+				A3BF55C41E54409F008F7999 /* ThirdTool.m */,
+				A3BF557F1E543A59008F7999 /* ViewController.h */,
+				A3BF55801E543A59008F7999 /* ViewController.m */,
+				A3BF55821E543A59008F7999 /* Main.storyboard */,
+				A3BF55851E543A59008F7999 /* Assets.xcassets */,
+				A3BF55871E543A59008F7999 /* LaunchScreen.storyboard */,
+				A3BF558A1E543A59008F7999 /* Info.plist */,
+				A3BF55791E543A59008F7999 /* Supporting Files */,
+			);
+			path = "三方登陆&分享";
+			sourceTree = "<group>";
+		};
+		A3BF55791E543A59008F7999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF557A1E543A59008F7999 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3BF55921E543A59008F7999 /* 三方登陆&分享Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF55931E543A59008F7999 /* _______Tests.m */,
+				A3BF55951E543A59008F7999 /* Info.plist */,
+			);
+			path = "三方登陆&分享Tests";
+			sourceTree = "<group>";
+		};
+		A3BF559D1E543A59008F7999 /* 三方登陆&分享UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF559E1E543A59008F7999 /* _______UITests.m */,
+				A3BF55A01E543A59008F7999 /* Info.plist */,
+			);
+			path = "三方登陆&分享UITests";
+			sourceTree = "<group>";
+		};
+		A3BF55AC1E543EFD008F7999 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF55AD1E543EFD008F7999 /* QQSDK */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A3BF55AD1E543EFD008F7999 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF55AE1E543F0F008F7999 /* TencentOpenApi_IOS_Bundle.bundle */,
+				A3BF55AF1E543F0F008F7999 /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		A3BF55C21E543FF7008F7999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF55C01E543FA5008F7999 /* libz.tbd */,
+				A3BF55BE1E543F99008F7999 /* libstdc++.tbd */,
+				A3BF55BC1E543F83008F7999 /* CoreTelephony.framework */,
+				A3BF55BA1E543F79008F7999 /* libsqlite3.tbd */,
+				A3BF55B81E543F6C008F7999 /* CoreGraphics.framework */,
+				A3BF55B61E543F5D008F7999 /* SystemConfiguration.framework */,
+				A3BF55B41E543F4F008F7999 /* libiconv.tbd */,
+				A3BF55B21E543F42008F7999 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3BF55751E543A59008F7999 /* 三方登陆&分享 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BF55A31E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享" */;
+			buildPhases = (
+				A3BF55721E543A59008F7999 /* Sources */,
+				A3BF55731E543A59008F7999 /* Frameworks */,
+				A3BF55741E543A59008F7999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "三方登陆&分享";
+			productName = "三方登陆&分享";
+			productReference = A3BF55761E543A59008F7999 /* 三方登陆&分享.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3BF558E1E543A59008F7999 /* 三方登陆&分享Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BF55A61E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享Tests" */;
+			buildPhases = (
+				A3BF558B1E543A59008F7999 /* Sources */,
+				A3BF558C1E543A59008F7999 /* Frameworks */,
+				A3BF558D1E543A59008F7999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BF55911E543A59008F7999 /* PBXTargetDependency */,
+			);
+			name = "三方登陆&分享Tests";
+			productName = "三方登陆&分享Tests";
+			productReference = A3BF558F1E543A59008F7999 /* 三方登陆&分享Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3BF55991E543A59008F7999 /* 三方登陆&分享UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BF55A91E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享UITests" */;
+			buildPhases = (
+				A3BF55961E543A59008F7999 /* Sources */,
+				A3BF55971E543A59008F7999 /* Frameworks */,
+				A3BF55981E543A59008F7999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BF559C1E543A59008F7999 /* PBXTargetDependency */,
+			);
+			name = "三方登陆&分享UITests";
+			productName = "三方登陆&分享UITests";
+			productReference = A3BF559A1E543A59008F7999 /* 三方登陆&分享UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3BF556E1E543A59008F7999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = df;
+				TargetAttributes = {
+					A3BF55751E543A59008F7999 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A3BF558E1E543A59008F7999 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A3BF55751E543A59008F7999;
+					};
+					A3BF55991E543A59008F7999 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A3BF55751E543A59008F7999;
+					};
+				};
+			};
+			buildConfigurationList = A3BF55711E543A59008F7999 /* Build configuration list for PBXProject "三方登陆&分享" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3BF556D1E543A59008F7999;
+			productRefGroup = A3BF55771E543A59008F7999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BF55751E543A59008F7999 /* 三方登陆&分享 */,
+				A3BF558E1E543A59008F7999 /* 三方登陆&分享Tests */,
+				A3BF55991E543A59008F7999 /* 三方登陆&分享UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3BF55741E543A59008F7999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BF55B01E543F0F008F7999 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				A3BF55891E543A59008F7999 /* LaunchScreen.storyboard in Resources */,
+				A3BF55861E543A59008F7999 /* Assets.xcassets in Resources */,
+				A3BF55841E543A59008F7999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF558D1E543A59008F7999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF55981E543A59008F7999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BF55721E543A59008F7999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BF55811E543A59008F7999 /* ViewController.m in Sources */,
+				A3BF557E1E543A59008F7999 /* AppDelegate.m in Sources */,
+				A3BF557B1E543A59008F7999 /* main.m in Sources */,
+				A3BF55C51E54409F008F7999 /* ThirdTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF558B1E543A59008F7999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BF55941E543A59008F7999 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BF55961E543A59008F7999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BF559F1E543A59008F7999 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3BF55911E543A59008F7999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BF55751E543A59008F7999 /* 三方登陆&分享 */;
+			targetProxy = A3BF55901E543A59008F7999 /* PBXContainerItemProxy */;
+		};
+		A3BF559C1E543A59008F7999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BF55751E543A59008F7999 /* 三方登陆&分享 */;
+			targetProxy = A3BF559B1E543A59008F7999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3BF55821E543A59008F7999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BF55831E543A59008F7999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3BF55871E543A59008F7999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BF55881E543A59008F7999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3BF55A11E543A59008F7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3BF55A21E543A59008F7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3BF55A41E543A59008F7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/三方登陆&分享/Lib/QQSDK",
+				);
+				INFOPLIST_FILE = "三方登陆&分享/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "df.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3BF55A51E543A59008F7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/三方登陆&分享/Lib/QQSDK",
+				);
+				INFOPLIST_FILE = "三方登陆&分享/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "df.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3BF55A71E543A59008F7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "三方登陆&分享Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "df.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/三方登陆&分享.app/三方登陆&分享";
+			};
+			name = Debug;
+		};
+		A3BF55A81E543A59008F7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "三方登陆&分享Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "df.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/三方登陆&分享.app/三方登陆&分享";
+			};
+			name = Release;
+		};
+		A3BF55AA1E543A59008F7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "三方登陆&分享UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "df.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "三方登陆&分享";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3BF55AB1E543A59008F7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "三方登陆&分享UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "df.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "三方登陆&分享";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3BF55711E543A59008F7999 /* Build configuration list for PBXProject "三方登陆&分享" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BF55A11E543A59008F7999 /* Debug */,
+				A3BF55A21E543A59008F7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BF55A31E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BF55A41E543A59008F7999 /* Debug */,
+				A3BF55A51E543A59008F7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3BF55A61E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BF55A71E543A59008F7999 /* Debug */,
+				A3BF55A81E543A59008F7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3BF55A91E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BF55AA1E543A59008F7999 /* Debug */,
+				A3BF55AB1E543A59008F7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3BF556E1E543A59008F7999 /* Project object */;
+}
