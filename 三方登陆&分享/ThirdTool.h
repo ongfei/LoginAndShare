@@ -17,9 +17,6 @@ typedef enum : NSUInteger {
 typedef void(^ResultBlock)(QQApiSendResultCode code);
 
 @protocol ThirdToolDelegate <NSObject>
-
-@property (nonatomic, assign) shareAddrType shareType;
-
 /**
  *  登陆成功之后返回用户信息的代理
  *
@@ -36,6 +33,8 @@ typedef void(^ResultBlock)(QQApiSendResultCode code);
 typedef void(^responsBlock)(id responserObject);
 
 @interface ThirdTool : NSObject
+
+@property (nonatomic, assign) shareAddrType shareType;
 
 @property (nonatomic, weak) id<ThirdToolDelegate> delegate;
 

@@ -126,9 +126,7 @@ static ThirdTool *thirdTool = nil;
     
     QQApiTextObject *txtObj = [QQApiTextObject objectWithText:text];
     
-    SendMessageToQQReq *req = [SendMessageToQQReq reqWithContent:txtObj];
-    
-    resultB([self baseShareContent:req andType:shareType]);
+    resultB([self baseShareContent:txtObj andType:shareType]);
 }
 
 - (void)shareNewsUrlToQQ:(NSString *)url andTitle:(NSString *)titl andDescription:(NSString *)descri andPreviewImageURL:(NSString *)imgUrl andType:(shareAddrType)shareType result:(ResultBlock)resultB {

@@ -275,6 +275,7 @@
 				TargetAttributes = {
 					A3BF55751E543A59008F7999 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G3Z423E898;
 					};
 					A3BF558E1E543A59008F7999 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -483,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3Z423E898;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/三方登陆&分享/Lib/QQSDK",
@@ -498,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3Z423E898;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/三方登陆&分享/Lib/QQSDK",
@@ -576,6 +579,7 @@
 				A3BF55A51E543A59008F7999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3BF55A61E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享Tests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +588,7 @@
 				A3BF55A81E543A59008F7999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3BF55A91E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享UITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +597,7 @@
 				A3BF55AB1E543A59008F7999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
