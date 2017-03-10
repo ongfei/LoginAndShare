@@ -48,6 +48,8 @@ typedef void(^responsBlock)(id responserObject);
 
 @property (nonatomic, assign) shareAddrType shareType;
 
+@property (nonatomic, assign) shareAddrType shareType;
+
 @property (nonatomic, weak) id<ThirdToolDelegate> delegate;
 
 + (instancetype)sharedManager;
