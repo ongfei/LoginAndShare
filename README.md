@@ -1,5 +1,9 @@
 #LoginAndShare
 
+###用的时候 需要传自己的APPID scheme 别忘记修改
+
+
+
 ####QQ登陆分享
 集成QQSDK的方法 可以去QQ开发平台去看步骤 或者 看最后
 
