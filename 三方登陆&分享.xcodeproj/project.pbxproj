@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A302EE4F1E70F5BE00EA24AF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EC13321E70E95300B39CFD /* libc++.tbd */; };
+		A302EE511E70F5C800EA24AF /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A302EE501E70F5C800EA24AF /* libc++abi.tbd */; };
+		A3692CDA1E70E70800A5736E /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3692CD61E70E70800A5736E /* libWeChatSDK.a */; };
 		A3BF557B1E543A59008F7999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF557A1E543A59008F7999 /* main.m */; };
 		A3BF557E1E543A59008F7999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF557D1E543A59008F7999 /* AppDelegate.m */; };
 		A3BF55811E543A59008F7999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BF55801E543A59008F7999 /* ViewController.m */; };
@@ -46,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A302EE501E70F5C800EA24AF /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		A3692CD61E70E70800A5736E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		A3692CD71E70E70800A5736E /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		A3692CD81E70E70800A5736E /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A3692CD91E70E70800A5736E /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		A3BF55761E543A59008F7999 /* 三方登陆&分享.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "三方登陆&分享.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BF557A1E543A59008F7999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3BF557C1E543A59008F7999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +82,9 @@
 		A3BF55C01E543FA5008F7999 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A3BF55C31E54409F008F7999 /* ThirdTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTool.h; sourceTree = "<group>"; };
 		A3BF55C41E54409F008F7999 /* ThirdTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTool.m; sourceTree = "<group>"; };
+		A3EC13301E70E94200B39CFD /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A3EC13321E70E95300B39CFD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A3EC13341E70E96F00B39CFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A302EE511E70F5C800EA24AF /* libc++abi.tbd in Frameworks */,
+				A302EE4F1E70F5BE00EA24AF /* libc++.tbd in Frameworks */,
 				A3BF55C11E543FA5008F7999 /* libz.tbd in Frameworks */,
 				A3BF55BF1E543F99008F7999 /* libstdc++.tbd in Frameworks */,
 				A3BF55BD1E543F83008F7999 /* CoreTelephony.framework in Frameworks */,
 				A3BF55BB1E543F79008F7999 /* libsqlite3.tbd in Frameworks */,
+				A3692CDA1E70E70800A5736E /* libWeChatSDK.a in Frameworks */,
 				A3BF55B91E543F6C008F7999 /* CoreGraphics.framework in Frameworks */,
 				A3BF55B71E543F5D008F7999 /* SystemConfiguration.framework in Frameworks */,
 				A3BF55B51E543F4F008F7999 /* libiconv.tbd in Frameworks */,
@@ -110,6 +124,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3692CD51E70E6ED00A5736E /* WXSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A3692CD61E70E70800A5736E /* libWeChatSDK.a */,
+				A3692CD71E70E70800A5736E /* WechatAuthSDK.h */,
+				A3692CD81E70E70800A5736E /* WXApi.h */,
+				A3692CD91E70E70800A5736E /* WXApiObject.h */,
+			);
+			path = WXSDK;
+			sourceTree = "<group>";
+		};
 		A3BF556D1E543A59008F7999 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +204,7 @@
 		A3BF55AC1E543EFD008F7999 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				A3692CD51E70E6ED00A5736E /* WXSDK */,
 				A3BF55AD1E543EFD008F7999 /* QQSDK */,
 			);
 			path = Lib;
@@ -196,6 +222,10 @@
 		A3BF55C21E543FF7008F7999 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A302EE501E70F5C800EA24AF /* libc++abi.tbd */,
+				A3EC13341E70E96F00B39CFD /* CFNetwork.framework */,
+				A3EC13321E70E95300B39CFD /* libc++.tbd */,
+				A3EC13301E70E94200B39CFD /* libsqlite3.0.tbd */,
 				A3BF55C01E543FA5008F7999 /* libz.tbd */,
 				A3BF55BE1E543F99008F7999 /* libstdc++.tbd */,
 				A3BF55BC1E543F83008F7999 /* CoreTelephony.framework */,
@@ -275,6 +305,7 @@
 				TargetAttributes = {
 					A3BF55751E543A59008F7999 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G3Z423E898;
 					};
 					A3BF558E1E543A59008F7999 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -433,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -471,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,12 +514,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3Z423E898;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/三方登陆&分享/Lib/QQSDK",
+					"$(PROJECT_DIR)/三方登陆&分享/Lib/WXSDK",
 				);
 				INFOPLIST_FILE = "三方登陆&分享/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/三方登陆&分享/Lib/WXSDK",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "df.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,12 +540,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3Z423E898;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/三方登陆&分享/Lib/QQSDK",
+					"$(PROJECT_DIR)/三方登陆&分享/Lib/WXSDK",
 				);
 				INFOPLIST_FILE = "三方登陆&分享/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/三方登陆&分享/Lib/WXSDK",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "df.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -576,6 +629,7 @@
 				A3BF55A51E543A59008F7999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3BF55A61E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享Tests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +638,7 @@
 				A3BF55A81E543A59008F7999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3BF55A91E543A59008F7999 /* Build configuration list for PBXNativeTarget "三方登陆&分享UITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +647,7 @@
 				A3BF55AB1E543A59008F7999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

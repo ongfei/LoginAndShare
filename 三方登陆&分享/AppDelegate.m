@@ -10,6 +10,7 @@
 #import <TencentOpenAPI/TencentOAuth.h>
 #import "ThirdTool.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -22,6 +23,9 @@
     
     [[ThirdTool sharedManager] registQQWithAppId:@"1105909993" andAppKey:@"7CaXuvhrYSwAgiEO"];
 
+    [[ThirdTool sharedManager] registWXWithAppId:@"wx8d4e96c8ef765646"];
+
+    
     return YES;
 }
 
@@ -49,11 +53,25 @@
 
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
-    return [TencentOAuth HandleOpenURL:url];
+    
+    return [TencentOAuth HandleOpenURL:url] || [WXApi handleOpenURL:url delegate:[ThirdTool sharedManager]];
+    
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
-    return [TencentOAuth HandleOpenURL:url];
+        
+    return [TencentOAuth HandleOpenURL:url] || [WXApi handleOpenURL:url delegate:[ThirdTool sharedManager]];
+
 }
+
+#ifdef NSFoundationVersionNumber_iOS_8_x_Max
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    
+    return [TencentOAuth HandleOpenURL:url] || [WXApi handleOpenURL:url delegate:[ThirdTool sharedManager]];
+
+}
+
+#endif
 
 @end
