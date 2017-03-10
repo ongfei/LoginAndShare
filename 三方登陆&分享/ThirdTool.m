@@ -47,10 +47,6 @@ static ThirdTool *thirdTool;
     return thirdTool;
 }
 
-- (BOOL)handleOpenUrl:(NSURL *)url {
-    
-    return [WXApi handleOpenURL:url delegate:self];
-}
 #pragma mark - QQ
 
 - (void)registQQWithAppId:(NSString *)appId andAppKey:(NSString *)appKey {
@@ -176,6 +172,11 @@ static ThirdTool *thirdTool;
 }
 
 - (QQApiSendResultCode)baseShareContent:(id)content andType:(shareAddrType)shareType {
+    
+    if (![TencentOAuth iphoneQQInstalled]) {
+        
+        NSLog(@"木有安装QQ");
+    }
     
     SendMessageToQQReq *req = [SendMessageToQQReq reqWithContent:content];
     
@@ -303,6 +304,13 @@ static ThirdTool *thirdTool;
 
 
 - (NSString *)wxBaseShareContent:(id)content andbText:(BOOL)btext andType:(shareWXScene)shareType {
+    
+    if (![WXApi isWXAppInstalled]) {
+        
+        NSLog(@"未安装微信");
+        
+        return @"未安装微信";
+    }
     
     SendMessageToWXReq *req = [[SendMessageToWXReq alloc] init];
     

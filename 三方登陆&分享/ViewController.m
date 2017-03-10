@@ -30,7 +30,7 @@
     
     [self.tableV registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
-    self.sourceArr = [NSArray arrayWithObjects:@"QQLogin",@"QQShareWithText",@"WXLogin",@"WXShare",@"WXPay",@"Next", nil];
+    self.sourceArr = [NSArray arrayWithObjects:@"QQLogin",@"QQShareWithText",@"WXLogin",@"WXShare",@"WXPay", nil];
     
 }
 
@@ -105,6 +105,14 @@
 }
 
 - (void)WXPay {
+    
+    UIAlertView *aler = [[UIAlertView alloc] initWithTitle:@"警告"
+                                                   message:@"ViewController里面的 WXPay方法你先看一下"
+                                                  delegate:nil
+                                         cancelButtonTitle:nil
+                                         otherButtonTitles:@"好的", nil];
+    
+    [aler show];
     
     //从服务器获取订单信息
     NSString *url =[NSString stringWithFormat:@"xxxx"];

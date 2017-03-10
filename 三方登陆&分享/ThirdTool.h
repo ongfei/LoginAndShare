@@ -48,12 +48,9 @@ typedef void(^responsBlock)(id responserObject);
 
 @property (nonatomic, assign) shareAddrType shareType;
 
-@property (nonatomic, assign) shareAddrType shareType;
-
 @property (nonatomic, weak) id<ThirdToolDelegate> delegate;
 
 + (instancetype)sharedManager;
-- (BOOL)handleOpenUrl:(NSURL *)url;
 #pragma mark - qq注册
 /**
  *  注册QQapi 在 application: didFinishLaunchingWithOptions: 调用
