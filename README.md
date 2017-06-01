@@ -41,21 +41,21 @@ QQ分享:文字分享,新闻分享,音乐分享等 都是以share开头的方法
 
 五:最后不要忘记plist文件
 
-<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>mqzoneopensdk</string>
-		<string>mqzoneopensdkapi</string>
-		<string>mqzoneopensdkapi19</string>
-		<string>mqzoneopensdkapiV2</string>
-		<string>mqqOpensdkSSoLogin</string>
-		<string>mqqopensdkapiV2</string>
-		<string>mqqopensdkapiV3</string>
-		<string>wtloginmqq2</string>
-		<string>mqqapi</string>
-		<string>mqqwpa</string>
-		<string>mqzone</string>
-		<string>mqq</string>
-	</array>
+	<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>mqzoneopensdk</string>
+			<string>mqzoneopensdkapi</string>
+			<string>mqzoneopensdkapi19</string>
+			<string>mqzoneopensdkapiV2</string>
+			<string>mqqOpensdkSSoLogin</string>
+			<string>mqqopensdkapiV2</string>
+			<string>mqqopensdkapiV3</string>
+			<string>wtloginmqq2</string>
+			<string>mqqapi</string>
+			<string>mqqwpa</string>
+			<string>mqzone</string>
+			<string>mqq</string>
+		</array>
 
 
 over
@@ -71,11 +71,12 @@ SystemConfiguration.framework, libz.dylib, libsqlite3.0.dylib, libc++.dylib, Sec
 三:修改必要的工程配置属性:
 
 在你的工程文件中选择Build Setting，在"Other Linker Flags"中加入"-Objc -all_load"，在Search Paths中添加 libWeChatSDK.a ，WXApi.h，WXApiObject.h，文件所在位置
-<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>weixin</string>
-		<string>wechat</string>
-	</array>
+
+	<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>weixin</string>
+			<string>wechat</string>
+		</array>
 
 
 四: 添加scheme  添加错误的影响就是微信的回调不会走: 
